@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.max-wdth-3\/4{
+max-width: calc(3 / 4* 100%);
+}
+
+.fit-content-width{
+    width: fit-content;
+}
